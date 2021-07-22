@@ -10,7 +10,7 @@ $MoisDernier = $datemois+30;
 //connexion a la BDD
 try
 {
-    $bdd = new PDO('mysql:host=localhost;dbname=j4cfrprod;charset=utf8', 'j4cfrprod', 'Inbategg');
+    $bdd = new PDO('mysql:host=localhost;dbname=;charset=utf8', '', '');
     
 }
 catch (Exception $e)
